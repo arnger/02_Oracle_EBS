@@ -120,7 +120,6 @@ begin
       insert into po_headers_interface values l_poh_iface_rec;
     end loop;
   
-    PO_MOAC_UTILS_PVT.SET_POLICY_CONTEXT('S', p_org_id);
     PO_INTERFACE_S.create_documents(p_api_version              => 1.0,
                                     x_return_status            => l_return_status,
                                     x_msg_count                => l_msg_count,
