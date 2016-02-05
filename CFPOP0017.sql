@@ -1,4 +1,3 @@
-rem Execute PL/SQL Block
 REM $Header: SLTPOP0017.sql 120.1 2016/02/05 10:00:00 Lawrence.Chen noship $
 /*
 *Description : PR Transfer to RFQ
